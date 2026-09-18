@@ -1,5 +1,3 @@
-# EVOLVE
-
 ![Evolve Logo](images/Evolve-BASE1.png)
 
 ## Product Vision

@@ -10,9 +10,7 @@ Evolve is a solo project. Practices that primarily coordinate multiple people
 should therefore be treated as optional unless they provide a clear benefit to
 planning, learning, quality or communication.
 
-## Working Philosophies
-
-The following philosophies were considered:
+## Working Philosophies:
 
 ### Agile
 
@@ -35,14 +33,6 @@ Agile is valuable for Evolve because it:
 ### Lean
 
 Lean focuses on maximising value, reducing waste and improving flow, making it well suited to a solo project where finishing work before starting more work matters.
-
-### Extreme Programming (XP)
-
-XP focuses on engineering practices such as testing, simple design, continuous integration, refactoring and frequent releases, while collaboration practices have limited direct value for a solo project.
-
-### Waterfall
-
-Waterfall uses sequential phases and detailed up-front planning, making it a poor default for Evolve because the project is exploratory and requirements will change through learning and delivery.
 
 ## Selected Philosophy
 
@@ -107,7 +97,9 @@ Scrum team. The process is a lightweight solo adaptation.
 
 The sprint plan is a forecast, not a promise to complete an arbitrary volume of
 work. Scope can be adjusted when new information makes the original plan
-invalid.
+invalid. 
+
+**The board is the source of truth for current work status.**
 
 ### 2. Progress
 
@@ -134,23 +126,9 @@ waiting period** between moving an issue into Review and reviewing it. This
 creates distance from the implementation and gives the same person enough time
 to look at the issue with a clearer perspective.
 
-The review should check:
+An issue is complete only after it has passed review.
 
-- the issue's goal and done conditions;
-- the implementation and its surrounding behaviour;
-- relevant tests and documentation; and
-- whether the change introduces follow-up work.
-
-If the issue does not meet the standard, return it to In Progress with the
-remaining work recorded. If it meets the standard, move it to Done.
-
-### 4. Complete
-
-An issue is complete only after it has passed the review period and review. The
-issue should remain linked to its milestone and sprint so that delivery can be
-traced back to the larger goal and the sprint in which it was completed.
-
-At the end of a sprint:
+### 4. End of Sprint
 
 1. confirm which issues were completed;
 2. move incomplete issues back to the backlog or into the next sprint based on
@@ -168,22 +146,5 @@ Each sprint should end with a retrospective covering:
 - one or two specific changes to try in the next sprint.
 
 Retrospective notes can be recorded in the project journal and shared publicly
-when useful. The workflow or standards themselves should be changed only when experience shows
+on Linkedin. The workflow or standards themselves should be changed only when experience shows
 that a change will improve delivery, quality or learning.
-
-## GitHub Projects Configuration
-
-GitHub Projects should support this workflow with:
-
-- a board view containing `Backlog`, `Ready`, `In Progress`, `Review` and
-  `Done` statuses;
-- sprint iterations with a fixed, documented duration;
-- fields for priority, milestone and sprint;
-- issue links that preserve the relationship between project work and its
-  larger goal; and
-- views or filters for the current sprint, unassigned issues and issues
-  waiting for review.
-
-Every issue must have a milestone before it is considered Ready. The board is
-the source of truth for current work status, while the issue remains the source
-of truth for context, scope and completion conditions.

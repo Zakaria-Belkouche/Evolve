@@ -36,8 +36,8 @@ What should be achieved?
 
 ## Done When
 
-- Outcome 1
-- Outcome 2
+- [ ] Outcome 1
+- [ ] Outcome 2
 ```
 
 ## Example
@@ -55,7 +55,7 @@ Decide how Evolve's documentation should be stored and organised.
 
 ## Done When
 
-- A documentation approach has been selected.
-- The reasoning has been documented.
-- An initial structure has been created.
+- [ ] A documentation approach has been selected.
+- [ ] The reasoning has been documented.
+- [ ] An initial structure has been created.
 ```

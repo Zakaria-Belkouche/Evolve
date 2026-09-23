@@ -171,7 +171,7 @@ When creating related tables, follow these rules:
 - Populate the parent table before populating the child table.
 - Drop the child table before dropping the parent table.
 
-!(SQL example Image)[../../../images/SQL-Diagram1.png]
+![SQL example image](../../../images/SQL-Diagram1.png)
 
 The `dept` table is the parent table because it contains the primary key that the `employee` table refers to.
 

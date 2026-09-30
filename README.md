@@ -1,13 +1,13 @@
 ![Evolve Logo](images/Evolve-BASE1.png)
 
-## Product Vision
+## Evolve: One Project to Learn Everything
 
-Evolve will begin as a personal portfolio website, providing a simple foundation from which the platform can grow.
+**Evolve is my project to learn everything:** software engineering, platform engineering, security and ethical hacking, data engineering, DevSecOps, AI, and whatever I explore next.
 
-The long-term vision is to evolve it into a free technology learning hub, providing resources such as articles, videos, tasks, challenges and eventually hands-on labs across areas of technology and engineering.
+I manage and build Evolve using real engineering practices: planning, issues, reviews, documentation, experimentation, and continuous improvement. What I build will evolve as I learn. The long-term direction includes turning my portfolio into a free technology learning hub where I can share what I know.
 
-The product will follow an iterative, Agile approach: starting with a small MVP and continuously expanding as new ideas, skills and technologies are explored.
+Self-study notes live in the [study space](study/README.md), alongside the rest of the journey.
 
 ---
 
-**Start small. Build. Learn. Iterate. Evolve.**
+**Learn. Build. Break. Fix. Evolve.**

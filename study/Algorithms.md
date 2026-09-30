@@ -1,0 +1,108 @@
+# Algorithmic Thinking
+
+## Contents
+---
+- [Roadmap](#roadmap)
+	- [Phase 1: Core patterns](#phase-1-core-patterns)
+	- [Phase 2: Data structures and traversal](#phase-2-data-structures-and-traversal)
+	- [Phase 3: Advanced problem solving](#phase-3-advanced-problem-solving)
+	- [Phase 4: Later topics](#phase-4-later-topics)
+- [Learning Loop](#learning-loop)
+---
+- [Phase 1:](#phase-1)
+    - [Arrays and Strings](#arrays-and-strings)
+
+## Roadmap
+
+### Phase 1: Core patterns
+
+Build comfort with these before moving on:
+
+1. **Arrays and strings:** indexing, iteration, state, prefix/suffix ideas, edge cases.
+2. **Hash maps and sets:** fast lookup, frequency counts, stored indexes, duplicate detection.
+3. **Two pointers:** left/right and slow/fast pointers; especially useful with sorted arrays.
+4. **Sliding window:** fixed and dynamic windows for substring and subarray problems.
+5. **Sorting:** understand Bubble, Selection and Insertion Sort; then focus on Merge Sort and Quick Sort.
+6. **Binary search:** classic search, boundary search and sorted-array problems.
+
+### Phase 2: Data structures and traversal
+
+1. **Stacks and queues:** LIFO/FIFO, parentheses; monotonic stacks later.
+2. **Linked lists:** nodes, traversal, reversal, cycle detection.
+3. **Recursion:** base and recursive cases, call stack.
+4. **Trees:** binary trees, BSTs, preorder/inorder/postorder traversals.
+5. **DFS and BFS:** recursion or stack for DFS, queue for BFS; tree and grid traversal.
+
+### Phase 3: Advanced problem solving
+
+1. **Graphs:** adjacency lists, visited sets, connected components, cycle detection.
+2. **Backtracking:** subsets, permutations, combinations, decision trees.
+3. **Dynamic programming:** start with Climbing Stairs and House Robber; then Coin Change, Unique Paths, Longest Common Subsequence and Edit Distance.
+4. **Heaps / priority queues:** top K, kth largest, repeated minimum/maximum extraction.
+
+### Phase 4: Later topics
+
+No need to focus on these yet:
+
+- Greedy algorithms; topological sort; Union-Find; Dijkstra.
+- Minimum spanning trees (Prim and Kruskal); tries; bit manipulation; advanced DP.
+- Specialised structures: Segment Trees and Fenwick Trees.
+
+## Learning Loop
+
+For each pattern:
+
+1. Learn the idea and when it is useful.
+2. Study one simple example.
+3. Solve 2–3 Easy problems, then one Medium problem.
+4. Explain the solution in your own words.
+5. Revisit it a few days later, then aim for 3–5 problems per pattern and review again after a week without notes.
+
+Avoid random problem grinding. Learn the **pattern**, not a memorised solution. For example, two pointers are useful when moving one pointer can safely eliminate part of the candidate space; the goal is to recognise when that reasoning applies to a new problem.
+
+## Reflection After Each Problem
+
+- What pattern did I use, and why did it work?
+- What are the time and space complexities?
+- What clue in the problem could point me toward this approach?
+
+---
+
+# Phase 1:
+
+## Arrays and Strings
+
+Arrays (often Python lists) and strings are ordered sequences. Their elements can be accessed by index.
+
+- Loop through values to inspect or compare them.
+- Track simple information as you go, such as a count or maximum.
+- Watch index boundaries; valid indexes go from `0` to `len(sequence) - 1`.
+- A single pass through `n` elements is usually `O(n)`.
+
+```python
+nums = [5, 8, 12, 3]
+
+for index in range(len(nums)):
+	print(index, nums[index])
+```
+
+### LeetCode Problems
+
+1. - [x] Running Sum of 1d Array — *Easy*
+        - completed with 0 Ai assistance within 5 minutes.
+2. - [x] Richest Customer Wealth — *Easy*
+        - completed with 0 Ai assistance within 3 minutes. 
+3. - [x] Merge Strings Alternately — Easy
+        - completed with 0 Ai assistance within 25 min. 
+        - Runtime only beats 5.7% of submitted solutions
+        - Memory usage beats 58.33% though
+        - instead of looping through index's we can just loop through letters in word 1 instead. 
+4. - [ ] Find Pivot Index — Easy
+5. - [ ] Summary Ranges — Easy
+6. - [ ] Longest Common Prefix — Easy
+7. - [ ] Best Time to Buy and Sell Stock — Easy
+8. - [ ] Valid Palindrome — Easy
+9. - [ ] Plus One — Easy
+10. - [ ] Rotate Array — Medium
+11. - [ ] Product of Array Except Self — Medium.
+

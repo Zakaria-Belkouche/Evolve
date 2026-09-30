@@ -3,7 +3,7 @@
 - Use the format: `type: short description`
 - Use a lowercase type: `feature`, `fix`, `docs`, `refactor`, `test`, or `maintenance`.
 - Keep the description clear and short.
-- In the short description, write in the imperative mood: "add", "fix", "update", or "debug".
+- In the short description, write in the imperative mood: "add", "resolve", "update", or "debug".
 - Describe one focused change per commit.
 - For commits related to an issue, always include the issue number: `fix: resolve login timeout (#123)`.
 

@@ -88,60 +88,59 @@ for index in range(len(nums)):
 
 ### LeetCode Problems
 
-1. [x] **Running Sum of 1d Array** — *Easy*
+- [x] **Running Sum of 1d Array** — *Easy*
         - AI assistance: None; completed in 5 minutes.
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-2. [x] **Richest Customer Wealth** — *Easy*
+- [x] **Richest Customer Wealth** — *Easy*
         - AI assistance: None; completed in 3 minutes.
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-3. [x] **Merge Strings Alternately** — *Easy*
+- [x] **Merge Strings Alternately** — *Easy*
         - AI assistance: None; completed in 25 minutes.
         - Runtime: Beats 5.7% of submissions.
         - Memory: Beats 58.33% of submissions.
         - Notes: strings are immutable in Python so concatenation creates a new string each time. Using a list to collect characters and joining at the end is more efficient then generating a new string each time.
-4. [x] **Find Pivot Index** — *Easy*
+- [x] **Find Pivot Index** — *Easy*
         - AI assistance: None; completed in 15 minutes.
         - Runtime: Beats 7.87% of submissions.
         - Memory: Beats 48.43% of submissions.
-        - Notes: when doing sum(nums[0:i]) and sum(nums[i+1:]), the slicing creates new lists each time.
-        So the initial for loop is O(n). Both sum's combine to also mean I'm iterating over the entire list again for each index. So n * n = O(n^2). Can optimise.
-5. [ ] **Summary Ranges** — *Easy*
+        - Notes: when doing sum(nums[0:i]) and sum(nums[i+1:]), the slicing creates new lists each time. So the initial for loop is O(n). Both sum's combine to also mean I'm iterating over the entire list again for each index. So n * n = O(n^2). Can optimise.
+- [ ] **Summary Ranges** — *Easy*
+        - AI assistance: _Not recorded_
+        - Runtime: _Not recorded_
+        - Memory: _Not recorded_
+        - Notes: Done this before but will do again.. Should be easy right if it's already been done.
+- [ ] **Longest Common Prefix** — *Easy*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-6. [ ] **Longest Common Prefix** — *Easy*
+- [ ] **Best Time to Buy and Sell Stock** — *Easy*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-7. [ ] **Best Time to Buy and Sell Stock** — *Easy*
+- [ ] **Valid Palindrome** — *Easy*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-8. [ ] **Valid Palindrome** — *Easy*
+- [ ] **Plus One** — *Easy*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-9. [ ] **Plus One** — *Easy*
+- [ ] **Rotate Array** — *Medium*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-10. [ ] **Rotate Array** — *Medium*
-         - AI assistance: _Not recorded_
-         - Runtime: _Not recorded_
-         - Memory: _Not recorded_
-         - Notes: _Add notes here_
-11. [ ] **Product of Array Except Self** — *Medium*
-         - AI assistance: _Not recorded_
-         - Runtime: _Not recorded_
-         - Memory: _Not recorded_
-         - Notes: _Add notes here_
+- [ ] **Product of Array Except Self** — *Medium*
+        - AI assistance: _Not recorded_
+        - Runtime: _Not recorded_
+        - Memory: _Not recorded_
+        - Notes: _Add notes here_
 

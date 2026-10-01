@@ -88,57 +88,57 @@ for index in range(len(nums)):
 
 ### LeetCode Problems
 
-- [x] **Running Sum of 1d Array** — *Easy*
+- [x] **[Running Sum of 1d Array](LeetCode-Solutions/running-sum.py)** — *Easy*
         - AI assistance: None; completed in 5 minutes.
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-- [x] **Richest Customer Wealth** — *Easy*
+- [x] **[Richest Customer Wealth](LeetCode-Solutions/richest-customer.py)** — *Easy*
         - AI assistance: None; completed in 3 minutes.
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-- [x] **Merge Strings Alternately** — *Easy*
+- [x] **[Merge Strings Alternately](LeetCode-Solutions/merge-strings-alternately.py)** — *Easy*
         - AI assistance: None; completed in 25 minutes.
         - Runtime: Beats 5.7% of submissions.
         - Memory: Beats 58.33% of submissions.
         - Notes: strings are immutable in Python so concatenation creates a new string each time. Using a list to collect characters and joining at the end is more efficient then generating a new string each time.
-- [x] **Find Pivot Index** — *Easy*
+- [x] **[Find Pivot Index](LeetCode-Solutions/find-pivot-index.py)** — *Easy*
         - AI assistance: None; completed in 15 minutes.
         - Runtime: Beats 7.87% of submissions.
         - Memory: Beats 48.43% of submissions.
         - Notes: when doing sum(nums[0:i]) and sum(nums[i+1:]), the slicing creates new lists each time. So the initial for loop is O(n). Both sum's combine to also mean I'm iterating over the entire list again for each index. So n * n = O(n^2). Can optimise.
-- [ ] **Summary Ranges** — *Easy*
+- [x] **[Summary Ranges](LeetCode-Solutions/summary-ranges.py)** — *Easy*
+        - AI assistance: None
+        - Runtime: Beats 100% of submissions.
+        - Memory: Beats 65.4% of submissions.
+        - Notes: Actually very proud of myself. My first solution was correct and beat 100% of runtime submissions, however the memory usage was terrible comparatively. I managed to then optimise the memory usage to beat the majority of submissions. Great.
+- [x] **[Longest Common Prefix](LeetCode-Solutions/longest-common-prefix.py)** — *Easy*
+        - AI assistance: No Ai assistance; completed in ~ 35 minutes.
+        - Runtime: Beats 100% of submissions.
+        - Memory: Beats 33% of submissions.
+        - Notes: Quite happy with this although memory usage could be better.
+- [ ] **[Best Time to Buy and Sell Stock](LeetCode-Solutions/best-time-to-buy-and-sell-stock.py)** — *Easy*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
-        - Notes: Done this before but will do again.. Should be easy right if it's already been done.
-- [ ] **Longest Common Prefix** — *Easy*
-        - AI assistance: _Not recorded_
-        - Runtime: _Not recorded_
-        - Memory: _Not recorded_
-        - Notes: _Add notes here_
-- [ ] **Best Time to Buy and Sell Stock** — *Easy*
-        - AI assistance: _Not recorded_
-        - Runtime: _Not recorded_
-        - Memory: _Not recorded_
-        - Notes: _Add notes here_
-- [ ] **Valid Palindrome** — *Easy*
-        - AI assistance: _Not recorded_
-        - Runtime: _Not recorded_
-        - Memory: _Not recorded_
-        - Notes: _Add notes here_
-- [ ] **Plus One** — *Easy*
-        - AI assistance: _Not recorded_
-        - Runtime: _Not recorded_
-        - Memory: _Not recorded_
-        - Notes: _Add notes here_
-- [ ] **Rotate Array** — *Medium*
+        - Notes: Finding more difficult.
+- [x] **[Valid Palindrome](LeetCode-Solutions/valid-palindrome.py)** — *Easy*
+        - AI assistance: None. Completed in about 5 minutes... 
+        - Runtime: Beats 36.3% of submissions.
+        - Memory: Beats 5.8% of submissions.
+        - Notes: Considering the time it took me to complete this problem... Very happy.
+- [ ] **[Plus One](LeetCode-Solutions/plus-one.py)** — *Easy*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_
         - Notes: _Add notes here_
-- [ ] **Product of Array Except Self** — *Medium*
+- [ ] **[Rotate Array](LeetCode-Solutions/rotate-array.py)** — *Medium*
+        - AI assistance: _Not recorded_
+        - Runtime: _Not recorded_
+        - Memory: _Not recorded_
+        - Notes: _Add notes here_
+- [ ] **[Product of Array Except Self](LeetCode-Solutions/product-of-array-except-self.py)** — *Medium*
         - AI assistance: _Not recorded_
         - Runtime: _Not recorded_
         - Memory: _Not recorded_

@@ -28,3 +28,36 @@ class Solution:
 # Above solution works... But it does not pass all test cases as runtime is too long.
 # ===================================================================================
 # Will re-do this solution from scratch later... Skipping for now. 
+
+class Solution:
+    def maxProfit(self, prices: list[int]) -> int:
+        
+        small = prices[0]
+        profit = 0
+        smallest = min(prices)
+        
+
+        for i in range(len(prices)):
+
+            if prices[i] > small:
+                continue
+
+            if prices[i] < small:
+                small = prices[i]
+
+            if prices[i] == smallest:
+                diff = max(prices[i:]) - small
+                if diff > profit:
+                    profit = diff
+                break
+
+            diff = max(prices[i:]) - small
+
+            if diff > profit:
+                profit = diff
+
+        return profit
+
+# ====================================================================================
+# This solution works completely. Passes all test cases but it's still super slow...
+# Barely meetings the max runtime to pass all test cases. 

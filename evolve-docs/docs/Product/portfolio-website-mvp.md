@@ -15,6 +15,8 @@ experience, and projects.
 
 ## MVP Scope
 
+[Portfolio MVP](../../images/Portfolio-MVP.jpeg)
+
 The website will be a static page with the following content:
 
 - **Identity and links:** name, CV link, LinkedIn profile, and GitHub profile.

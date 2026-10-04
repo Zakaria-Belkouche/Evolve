@@ -15,7 +15,7 @@ experience, and projects.
 
 ## MVP Scope
 
-[Portfolio MVP](../../images/Portfolio-MVP.jpeg)
+![Portfolio MVP](../../images/Portfolio-MVP.jpeg)
 
 The website will be a static page with the following content:
 

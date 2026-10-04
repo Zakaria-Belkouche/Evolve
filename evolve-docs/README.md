@@ -14,10 +14,13 @@ This allows documentation to evolve alongside the systems it describes while pro
 
 ## Documentation Structure
 
-The main documentation is stored under `docs/`.
+The main documentation is stored under `docs/`:
 
-- This section will be a guide on how to navigate through the docs
-- As of right now it is empty as there are no docs.
+- `Architecture/` contains architecture decisions and system design documents.
+- `Product/` contains product goals, requirements, and scope, including the
+	[portfolio website MVP](docs/Product/portfolio-website-mvp.md).
+- `journal/` contains reflections and retrospectives.
+- `standards/` contains shared engineering and documentation practices.
 
 ## Documentation Principles
 

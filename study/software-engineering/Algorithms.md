@@ -11,6 +11,7 @@
 ---
 - [Phase 1:](#phase-1)
     - [Arrays and Strings](#arrays-and-strings)
+  - [Hash Maps and Sets](#hash-maps-and-sets)
 
 ## Roadmap
 
@@ -143,3 +144,85 @@ for index in range(len(nums)):
   - **Runtime:** Beats 52.88% of submissions
   - **Memory:** Beats 42.96% of submissions
   - **Notes:** Pretty happy with this.
+
+
+## Hash Maps and Sets
+
+Dictionaries (Python `dict`) store key-value pairs, while sets store unique
+values. They are useful when a problem needs fast membership checks, frequency
+counts, or a way to associate a value with information such as its index.
+
+- Dictionary and set lookup, insertion, and deletion are usually `O(1)` on
+  average.
+- Use a dictionary when each key needs an associated value, such as a count or
+  index.
+- Use a set when you only need to track whether a value has appeared.
+- These structures use extra space to make lookup faster.
+
+```python
+seen = set()
+counts = {}
+
+for value in [2, 3, 2]:
+    seen.add(value)
+    counts[value] = counts.get(value, 0) + 1
+```
+
+### LeetCode Problems
+
+- [ ] **[Contains Duplicate](LeetCode-Solutions/Hash-Maps-and-Sets/contains-duplicate.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Two Sum](LeetCode-Solutions/Hash-Maps-and-Sets/two-sum.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Ransom Note](LeetCode-Solutions/Hash-Maps-and-Sets/ransom-note.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Jewels and Stones](LeetCode-Solutions/Hash-Maps-and-Sets/jewels-and-stones.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[First Unique Character in a String](LeetCode-Solutions/Hash-Maps-and-Sets/first-unique-character-in-a-string.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Intersection of Two Arrays](LeetCode-Solutions/Hash-Maps-and-Sets/intersection-of-two-arrays.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Happy Number](LeetCode-Solutions/Hash-Maps-and-Sets/happy-number.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Valid Anagram](LeetCode-Solutions/Hash-Maps-and-Sets/valid-anagram.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Isomorphic Strings](LeetCode-Solutions/Hash-Maps-and-Sets/isomorphic-strings.py)** — *Easy*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Group Anagrams](LeetCode-Solutions/Hash-Maps-and-Sets/group-anagrams.py)** — *Medium*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+- [ ] **[Top K Frequent Elements](LeetCode-Solutions/Hash-Maps-and-Sets/top-k-frequent-elements.py)** — *Medium*
+  - **AI assistance:** _Not recorded_
+  - **Runtime:** _Not recorded_
+  - **Memory:** _Not recorded_
+  - **Notes:** _Add notes here_
+
